@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{635CEF2D-596
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{365720FD-23B5-443C-97E7-5C7394DA0830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickWriting.Application", "QuickWriting.Application\QuickWriting.Application.csproj", "{C8F0A3D5-47BD-4E2B-A142-42343A14C645}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickWriting.Application", "QuickWriting.Application\QuickWriting.Application.csproj", "{C8F0A3D5-47BD-4E2B-A142-42343A14C645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickWriting.Tests", "QuickWriting.Tests\QuickWriting.Tests.csproj", "{9F2D5FCE-2D9F-4B12-B8DC-272E619940FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickWriting.Tests", "QuickWriting.Tests\QuickWriting.Tests.csproj", "{9F2D5FCE-2D9F-4B12-B8DC-272E619940FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickWriting.EntityFrameworkCore", "QuickWriting.EntityFrameworkCore\QuickWriting.EntityFrameworkCore.csproj", "{A9A5A80B-0E5F-4E51-9860-0160CFA48E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickWriting.EntityFrameworkCore", "QuickWriting.EntityFrameworkCore\QuickWriting.EntityFrameworkCore.csproj", "{A9A5A80B-0E5F-4E51-9860-0160CFA48E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickWriting.Web", "QuickWriting.Web\QuickWriting.Web.csproj", "{C5E39728-88A5-418E-8A6B-6A7158543B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickWriting.Web", "QuickWriting.Web\QuickWriting.Web.csproj", "{C5E39728-88A5-418E-8A6B-6A7158543B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickWriting.Common", "QuickWriting.Common\QuickWriting.Common.csproj", "{B3164BF8-F89B-4F99-B82F-45B9263762F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{C5E39728-88A5-418E-8A6B-6A7158543B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5E39728-88A5-418E-8A6B-6A7158543B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5E39728-88A5-418E-8A6B-6A7158543B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3164BF8-F89B-4F99-B82F-45B9263762F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3164BF8-F89B-4F99-B82F-45B9263762F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3164BF8-F89B-4F99-B82F-45B9263762F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3164BF8-F89B-4F99-B82F-45B9263762F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{9F2D5FCE-2D9F-4B12-B8DC-272E619940FE} = {365720FD-23B5-443C-97E7-5C7394DA0830}
 		{A9A5A80B-0E5F-4E51-9860-0160CFA48E0A} = {635CEF2D-596B-4B6D-82F1-16534FA6E1EB}
 		{C5E39728-88A5-418E-8A6B-6A7158543B93} = {635CEF2D-596B-4B6D-82F1-16534FA6E1EB}
+		{B3164BF8-F89B-4F99-B82F-45B9263762F6} = {635CEF2D-596B-4B6D-82F1-16534FA6E1EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20275849-F16E-48A3-9A23-8FEEDD66DA4E}
