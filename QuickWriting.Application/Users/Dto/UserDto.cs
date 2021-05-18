@@ -109,10 +109,13 @@ namespace QuickWriting.Users.Dto
         [DisplayName("允许登陆类型")]
         [Description("允许登陆类型")]
         public LoginType LoginType { get; set; }
-        
+
         /// <summary>
         /// 上次登陆时间
         /// </summary>
+        [Display(Name = "上次登陆时间")]
+        [DisplayName("上次登陆时间")]
+        [Description("上次登陆时间")]
         public DateTime LastLoginTime { get; set; }
     }
 }

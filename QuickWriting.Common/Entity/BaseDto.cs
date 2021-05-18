@@ -10,22 +10,22 @@ namespace QuickWriting.Common
         /// <summary>
         /// 字段主键
         /// </summary>
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         /// <summary>
         /// 创建人主键
         /// </summary>
-        public string CreateUserId { get; set; }
+        public Guid CreateUserId { get; set; }
         /// <summary>
         /// 修改人主键
         /// </summary>
-        public string ModifyUserId { get; set; }
+        public Guid ModifyUserId { get; set; }
         /// <summary>
         /// 创建时间
         /// </summary>
-        public DateTime? CreateDate { get; set; }
+        public DateTime CreateDate { get; set; }
         /// <summary>
         /// 修改时间
         /// </summary>
-        public DateTime? ModifyDate { get; set; }
+        public DateTime ModifyDate { get; set; }
     }
 }
